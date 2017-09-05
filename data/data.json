@@ -1,0 +1,13 @@
+{
+	"count":8,
+	"clients": [
+		{"id":1,"first_name":"Bob","last_name":"Marley","year":1985,"occupation":"singer"},
+		{"id":2,"first_name":"Tom","last_name":"Waits","year":1990,"occupation":"singer"},
+		{"id":3,"first_name":"Guy","last_name":"Pearce","year":1980,"occupation":"actor"},
+		{"id":4,"first_name":"Elvis","last_name":"Presley","year":1975,"occupation":"singer"},
+		{"id":5,"first_name":"Palph","last_name":"Fiennes","year":1982,"occupation":"actor"},
+		{"id":6,"first_name":"Robert","last_name":"Redford","year":1960,"occupation":"actor"},
+		{"id":7,"first_name":"Will","last_name":"Smith","year":1975,"occupation":"actor"},
+		{"id":8,"first_name":"Shaquille","last_name":"O'Neal","year":1980,"occupation":"athlet"}
+	]
+}

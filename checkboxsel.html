@@ -16,11 +16,14 @@
 				fields: ['id','first_name','last_name','year','occupation']
 			});
 			clientStore.setDefaultSort('id','asc');
+			var checkboxSel = new Ext.grid.CheckboxSelectionModel();
 			Ext.onReady(function() {
 				var grid = new Ext.grid.GridPanel({
 					title: 'Clients',
 					store: clientStore,
+					sm: checkboxSel,
 					columns: [
+						checkboxSel,
 						{header: "ID", width: 30, dataIndex: 'id', sortable: true},
 						{header: "First Name", width: 100, dataIndex: 'first_name', sortable: true},
 						{header: "Second Name", width: 100, dataIndex: 'last_name', sortable: true},
